@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-echo "Rails Asset Compiler"
+echo "Rails Asset Compiler v 0.1.0"
 exit 0 # should always run
