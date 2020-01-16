@@ -8,4 +8,6 @@ ENV_DIR=$3
 
 cd $BUILD_DIR
 
-DISABLE_INSTRUMENTATION=true RAILS_ENV=production BASE_APP_URL='https://app.fera.ai' bundle exec rake assets:precompile
+source $BUILD_DIR/bin/envvars
+
+bundle exec rake assets:precompile
